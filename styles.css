@@ -1,6 +1,6 @@
 h1{
-    background-color: aqua;
-    border-radius: 20px;
+    
+    border-radius: 10px;
     text-align: center;
 }
 img{
@@ -9,13 +9,12 @@ img{
 
 }
 p{
-    background-color:blanchedalmond;
-    border-radius:20px;
+   
     text-align: center;
 }
 h2{
-    background-color:aqua;
-    border-radius:20px;
+    background-color: lightcyan;
+    border-radius: 10px;
     text-align:center;
 }
 .Skills li {
@@ -43,13 +42,92 @@ td{
     border-radius: 10px;
 }
 h3{
-    background-color: aqua;
-    border-radius: 20px;
+    background-color: lightcyan;
+    border-radius: 10px;
     text-align: center;
 }
 .contact-info li{
     background-color: blanchedalmond;
-    border-radius: 20px;
+   
     text-align: center;
     padding: 10px;
+}
+.container-fluid {
+    background-color: lightcyan;
+}
+
+
+.card {
+  display: flex;              
+  justify-content: flex-start;
+  align-items: center;       
+  gap: 20px;
+  background: lightcyan;
+  margin: 20px;
+
+}                
+
+.hero {
+  display: flex;              /* flexing hero content */
+  flex-direction: column;     /* stack heading, text, buttons */
+  justify-content: center;    /* vertically center content */
+  align-items: center;    /* align everything to the center */
+  flex: 2;                    /* hero takes more space */
+  
+  color:black;
+  margin: 20px;
+}
+
+.hero-buttons {
+  display: flex;              /* buttons side by side */
+  gap: 10px;
+}
+
+.about {
+  flex: 1;                    /* smaller section on the right */
+  padding: 20px;
+  background: white;        /* beige background */
+  border-color: black;
+  border-radius: 10px;
+  gap:20px;
+
+}
+.card-img-top{
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+}
+.profile {
+  display: flex;              /* places items side by side */
+  align-items: center;        /* vertically centers them */
+  gap: 20px;    
+  background: lightgrey;              /* space between image and text */
+}
+
+.profile-pic {
+  width: 300px;               /* adjust size as needed */
+  height: 300px;
+  border-radius: 80px;         /* optional rounded corners */
+}
+
+.profile-text {
+  flex: 1;                    /* text takes remaining space */
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+  
+}
+.cards{
+    margin: 50px 50px;
+    
+
+}
+.form{
+    margin: 50px 50px;
+}
+.btn{
+    background-color: lightcyan;
+    border-radius: 10px;
+    color: black;
+
 }
